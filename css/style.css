@@ -1,0 +1,577 @@
+@import url(reset.css);
+
+#wrapper{
+    outline:0px solid black;
+    height: 0px;
+    width: 1000px;
+    margin: 0px auto;
+    
+}
+
+#header{
+    outline:0px solid red;
+    height: 128px;
+    position: relative;
+    width: inherit;
+    background-image: url(../images/topLine.png);
+    background-repeat: repeat-x;
+    background-position: 0px 0px;
+}
+
+#navi{
+    outline: 0px solid red;
+    height: 96px;
+    width: 587px;
+    position: absolute;
+    right: 15px;
+    top: 0px;
+}
+
+#navi li{
+    outline: 0px solid red;
+    height: 96px;
+    float:left;
+
+}
+
+#navi li a{
+    padding: 40px 15px 30px 15px;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    font: 12px Georgia,sans-serif;
+    color:#666666;
+    text-transform: uppercase;
+}
+
+.active a:link, #navi li a:hover{
+    background-color: #eeeeee;
+    border-top: 5px solid #57bae8;
+    color:#57bae8;
+    
+}    
+#textBlock{
+    outline: 0px solid aqua;
+    height: 45px;
+    width: 300px;
+    position: absolute;
+    bottom: 28px;
+    left: 18px;
+    background-image: url(../images/blockLine.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#textBlock p{
+    font: 12px Georgia,sans-serif;
+    color: #999999;
+    float: left;
+     position: absolute;
+    left: 166px;
+    bottom: 6px;
+}
+
+#header h1{
+    font: 30px Georgia,sans-serif;
+    color: #333333;
+    float: left;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    }
+    
+#fuckT{
+  font: 50px Georgia,sans-serif;
+    color: #333333;
+     
+}
+.clear{
+    clear:both;
+}
+                        /*Конец блока header*/
+                        /*Начало блока content*/
+#content{
+    outline:0px solid blue;
+    height: 508px;
+    background-image: url(../images/topLine2.png);
+    background-repeat: repeat-x;
+    background-position: 0px 0px;
+    position: relative;
+    padding:50px 19px 40px 19px;
+    
+ }                       
+                        
+#content h2{
+    font: 36px Georgia,sans-serif;
+    color: #333333;
+    margin-left: 190px;
+    margin-bottom: 15px;
+    
+}                        
+                        
+#content h3{
+    font: 22px Georgia,sans-serif;
+    color: #999999;
+    margin-left: 105px;
+    margin-bottom: 15px;
+    overflow: auto;
+}                        
+                        
+#image{
+    outline:0px solid red;
+    height: 400px;
+    width: 960px;
+    
+    position: absolute;
+}   
+
+
+
+
+#bigFoto{
+    outline:0px solid red;
+    background-image: url("../images/loader.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 400px;
+    width: 960px;
+    position: absolute; 
+}
+               
+#imageBottom{
+    outline:0px solid red;
+    position: absolute;
+    bottom:0px;
+    left: 0px;
+    height: 30px;
+    width: inherit;
+    background-color: #0f0f0f;
+ }         
+ #imageBottom p{
+    font: 13px Georgia,sans-serif;
+    color: #bfbfbf;
+    padding:7px 40px 5px 70px ;
+ }          
+                                              
+                        
+#circle{
+    outline:0px solid blue;
+    height: 15px;
+    position: absolute;
+    bottom: 20px;
+    left: 445px;
+    margin-top: 10px;
+    
+}                        
+
+#circle li{
+    outline:0px solid blue;
+    height: 14px;
+    width: 14px;
+    float:left;
+    display:block;
+    margin-left: 4px;
+}                       
+           
+                         /*Конец блока content*/
+                        /*Начало блока Lorem*/
+#lorem{
+    margin: 0px auto;
+    outline:0px solid blue;
+    height: 214px;
+    padding: 0 12px 0 12px;
+    position: relative;
+}
+
+
+#block1, #block2, #block3{
+    outline:0px solid red;
+    height: 214px;
+    width: 309px;
+    float: left;
+}
+
+#block2, #block3{
+    margin-left: 21px;
+}
+
+#img1, #img2,#img3{
+    outline: 0px solid blue;
+    height: 49px;
+    width: 49px;
+    float: left;
+    margin-bottom: 18px;
+    margin-right: 12px;
+}
+
+#lorem h3{
+    font: 26px Georgia,sans-serif;
+    color: #333333;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+
+#lorem p{
+    font: 13px Georgia,sans-serif;
+    color: #666666;
+    margin-bottom: 12px;
+}
+
+#lorem a{
+    font: 13px Georgia,sans-serif;
+    color: #57bae8;
+    text-decoration: none;
+}
+
+#lorem a:hover{
+     font: 13px Georgia,sans-serif;
+    color: #666666;
+    text-decoration: none;
+}
+
+                        /*Конец блока Lorem*/
+                        /*начало блока Latest*/
+ #latest{
+    outline:1px solid blue;
+    margin: 0px auto;
+    height: 236px;
+    width:1000px;
+    padding: 0 17px 50px 17px;
+    position: relative;
+   
+ }                       
+       
+ #latestH3{
+    outline:0px solid blue;
+    margin: 0px auto;
+    height: 77px;
+    width: 1000px;
+    position: relative;
+    font: 26px Georgia,sans-serif;
+    color: #333333;
+    background-image: url(../images/line.png);
+    background-repeat: no-repeat;
+    background-position:15px 40px;
+   }
+ #latestH3 li{
+    float: left;
+ }  
+  #latestH3 ul{
+    position: absolute;
+    right: 25px;
+    top: 0px;
+  } 
+   
+   
+#latestH3 h3{
+    margin-left: 15px;
+}   
+                       
+ #fBlock, #sBlock, #tBlock{
+    outline:0px solid red;
+    padding-left: 8px;
+    height: 244px;
+    width: 297px;
+    float: left;    
+    background-image: url(../images/greyLine.png);
+    background-repeat: repeat-x;
+    background-position:0 240px;               
+        }                
+                        
+                        
+#sBlock, #tBlock{
+    margin-left: 31px;                        
+  }                      
+#imgA,#imgB,#imgC {
+    outline: 0px solid blue;
+    height: 170px;
+    width: 300px;
+    margin-bottom: 18px;
+}                       
+                        
+.inslider h4{
+    font: 16px Georgia,sans-serif;
+    color: #333333;
+    margin-bottom: 4px;
+}                     
+.inslider p{
+    font: 13px Georgia,sans-serif;
+    color: #999999;
+  }                      
+                        
+                        /*Конец блока Latest*/
+                        /*Начало блока footerContent*/
+#footerCotent{
+    outline: 0px solid blue;
+    margin: 0px auto;
+    height: 322px;
+    width: 972px;
+    padding: 30px 14px 28px 14px;
+    background-color: #2c2f32;
+    background-image: url(../images/topLine.png);
+    background-repeat: repeat-x;
+    background-position: 0 0px;
+}                        
+                        
+#details,#post,#links,#contact{
+    width: 228px;
+    outline: 0px solid red;
+    float: left;
+} 
+
+#post,#links,#contact{
+    margin-left: 15px;
+}
+           
+
+#details p{
+    margin-bottom: 17px;
+    padding-top: 7px;
+}   
+
+#details a{
+    text-decoration: none;
+    font: 12px Georgian,sans-serif;
+    color: #57bae8;
+}
+         
+#details p,#post p,#links p,#contact p{
+    font: 12px Georgian,sans-serif;
+    color: #999999;
+    
+} 
+#some{
+     font: 9px Georgian,sans-serif;
+    color: #999999;
+}  
+ #footerCotent h5{
+    font: 12px Georgian,sans-serif;
+    color: #ffffff;
+    margin-left: 60px;
+    padding-bottom: 20px;
+    }
+   
+  
+#post1 img,#post2 img,#post3 img{
+    float: left;
+    margin-right: 8px;
+}                    
+
+#post1,#post2,#post3{
+    outline:0px solid yellow;
+    height: 48px;
+    border-bottom: 1px solid #232323;
+    padding: 12px 0px 15px 0;
+}
+
+
+#contact{
+    padding-left: 4px;
+}
+                                               
+#name ,#mail, #date {
+    height: 31px;
+    width: 225px;
+    background-color: #2c2f32;
+    background-image: url(../images/textArea.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 10px;
+ }
+ 
+                        
+         
+#text{
+    height: 110px;
+    width: 225px;
+    background-color: #2c2f32;
+    background-image: url(../images/textArea2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 10px;
+}         
+  
+#text textarea{
+    max-height: 100px;
+    max-width: 215px;
+    height: 110px;
+    width: 225px;
+}    
+     
+#nam,#mai,#tex,#dat{
+    font: 13px Georgian,sans-serif;
+    color: #999999;
+    margin: 5px 0 5px 5px;
+        
+}
+                    
+#name input,#mail input, #date input, #text textarea{
+    background-color: #474b50;
+    border: none;
+  }                     
+                        
+#links a{
+    text-decoration: none;
+    font: 12px Georgian,sans-serif;
+    color: #57bae8;
+    margin-left: 15px;
+    
+}                        
+#links li{
+    outline: 0px solid blue;
+    height: 14px;
+    border-bottom: 1px solid #232323;
+    background-image: url(../images/strela.png);
+    background-repeat: no-repeat;
+    background-position: 2px 12px;
+    padding: 9px 0 5px 0;
+}                        
+                        
+                      /*Конец блока footerContent*/
+
+#footer{
+    height: 25px;
+    width: 980px;
+    margin: 0px auto;
+    background-color: #1f2224;
+    background-image: url(../images/footLine.png);
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    padding: 20px 10px 20px 10px;
+    position:relative;
+}
+
+#footer p,#foot{
+    font: 12px Georgian,sans-serif;
+    color: #999999;
+    float:left;
+}
+
+#foot{
+   margin-left: 700px; 
+   position: absolute;
+   top: 20px;
+   right: 30px;
+}
+
+#pseName,#pseMail{
+    display: none;
+}
+
+   /*Классы для скрипта!*/
+ .nameRed{
+    border: 2px solid red;
+    border-radius:10px;
+ }
+  .nameGreen{
+    border: 2px solid #0BE005;
+    border-radius:10px;
+ }
+
+ 
+ 
+ .pseName{
+    
+    margin-bottom: 10px;
+    color: red;
+   
+ }
+ 
+ .pseMail{
+    
+    margin-bottom: 10px;
+    color: red;
+    
+ } 
+ /*Классы для скрипта!*/
+
+ 
+
+ /* слайдер для контента*/
+
+
+
+#slider {
+    width: 1000px; 
+	position:relative;
+	padding:20px;
+    margin: 0 auto;
+	overflow:hidden;
+}
+.content {
+	width:1000px;
+	float: left;
+	position: relative;
+	
+}
+.inslider a {
+	text-decoration:none;
+}
+.contentholder {
+   
+	height:300px;
+	width: 1000px;
+	overflow: hidden;
+	position: relative;
+	
+}
+.contentslider {
+	position: absolute;
+	
+}
+.imgslider img {
+	float: left;
+}
+.contentnav {
+	position: absolute;
+	bottom: 30px; 
+    left:30px;
+	 height:30px;
+	z-index: 100;
+	text-align: center;
+	
+
+
+
+}
+
+/* Navigation*/
+.contentnav a {
+
+}
+
+/* Navigation*/
+.contentnav a.active {
+	}
+ /* слайдер для контента*/
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
